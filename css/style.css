@@ -1,0 +1,248 @@
+.testimonial-img {
+    border-radius: 50%;
+    width: 90px;
+}
+
+.swiper-pagination {
+    position: relative !important;
+}
+
+.client-section img{
+    filter: grayscale(100);
+    transition: all 0.2s ease-in-out;
+}
+
+.client-section img:hover{
+    filter: grayscale(0);
+    transform: scale(1.3);
+}
+
+.service-box:hover{ 
+    transition: all ease-in-out 0.1s;
+    box-shadow: 1px 5px 1px 0px rgba(110 123 131 / 5%);
+    padding: 1px 5px 0px 5px;
+    text-align: center;
+}
+
+.icon-box i {
+    color: blue;
+}
+
+.second-row:hover {
+    transition: all ease-in-out 0.1s;
+    box-shadow: 0px 5px 1px 0px rgba(110 123 131 / 5%);
+    padding: 0px 5px 1px 5px;
+    text-align: center;
+}
+
+.cta-btn {
+   text-decoration: none;
+   color: #fff;
+   border: 2px solid #fff;
+   border-radius: 5px;
+   padding: 10px 35px;
+   margin-top: 10px;
+   font-weight: 600;
+}
+
+.cta-btn:hover {
+    color: blue;
+    background-color: #fff;
+    font-weight: 600;
+}
+
+.portfolio-wrap {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.portfolio-wrap:hover::before {
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+}
+
+.portfolio-wrap::before {
+    content: "";
+    background: rgba(36, 135, 206, 0.6);
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+    z-index: 2;
+    transition: all ease-in-out 0.3s;
+    opacity: 0;
+}
+
+.portfolio-wrap:hover .portfolio-info {
+    opacity: 1;
+}
+
+.portfolio-info {
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    z-index: 3;
+    opacity: 0;
+}
+
+.portfolio-info::before {
+    display: block;
+    content:"";
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    transition: all 0.5s ease 0s;
+    z-index: 9994;
+}
+
+.portfolio-info::after {
+    display: block;
+    content:"";
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    right: 35px;
+    bottom: 35px;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transition: all 0.5s ease 0s;
+    z-index: 9994;
+}
+
+.free-list li {
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+.cancel {
+    text-decoration: line-through;
+    color: #ccc;
+}
+.free-btn {
+    text-decoration: none;
+    color: #2487ce;
+    border: 2px solid #2487ce;
+    border-radius: 5px;
+    padding: 10px 35px;
+    margin-top: 10px;
+    font-weight: 600;
+ }
+ 
+ .free-btn:hover {
+    color: #fff;
+    background-color: #2487ce ;
+    font-weight: 600;
+}
+
+.price-box {
+    padding: 65px 20px;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    background: #fefefe;
+    box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
+}
+
+.free-box {
+    padding: 65px 20px;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    background: #2487ce;
+    box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
+}
+
+.small-text {
+    color: #fff;
+    font-size: 20px;
+}
+
+.money-list li {
+    padding-bottom: 10px;
+    list-style-type: none;
+    color: #fff
+}
+
+.money-btn {
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 10px 35px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.money-btn:hover {
+    color:  #2487ce;
+    background-color: #fff ;
+    font-weight: 600;
+}
+
+.acc-item {
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    font-weight: 600;
+}
+
+.question-icon {
+    margin-right: 10px;
+}
+
+.first-card:hover{
+    overflow: hidden;
+    background: #fff;
+    padding: 30px 1px 10px 1px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.portfolio li {
+    list-style-type: none; 
+}
+
+.portfolio li a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 25px;
+    font-weight: 600;
+}
+
+.portfolio li a:hover {
+    text-decoration: none;
+    color: #2487ce ;
+    margin-right: 25px;
+    font-weight: 600;
+}
+
+.msg-btn {
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #2487ce;
+    background-color:#2487ce ;
+    border-radius: 5px;
+    padding: 10px 35px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.accordion-body, .accordion-button {
+    background: #fff;
+}
+
+
